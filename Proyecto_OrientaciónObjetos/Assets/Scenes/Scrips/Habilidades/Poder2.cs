@@ -25,7 +25,7 @@ public class Lanza : Habilidad
         }
 
         // Consumir 30 puntos de maná
-        jugador.GastarMana(30);
+        jugador.GastarMana(20);
 
         // Instanciar la lanza y lanzarla
         GameObject lanza = Instantiate(prefabLanza, puntoDisparo.position, puntoDisparo.rotation);

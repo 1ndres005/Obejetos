@@ -3,11 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\andre\\Desktop\\Proyecto_Orientaci\u00F3nObjetos\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|c:\\users\\andre\\desktop\\proyecto_orientaci\u00F3nobjetos\\assets\\scenes\\scrips\\character\\dommie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scrips\\character\\dommie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|c:\\users\\andre\\desktop\\proyecto_orientaci\u00F3nobjetos\\assets\\scenes\\scrips\\habilidades\\poder2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scrips\\habilidades\\poder2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|c:\\users\\andre\\desktop\\proyecto_orientaci\u00F3nobjetos\\assets\\scenes\\scrips\\character\\ability systemn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scrips\\character\\ability systemn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\andre\\Desktop\\Proyecto_Orientaci\u00F3nObjetos\\Library\\PackageCache\\com.unity.ugui@a9eaa85fb1b8\\Runtime\\UGUI\\EventSystem\\EventSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.ugui@a9eaa85fb1b8\\Runtime\\UGUI\\EventSystem\\EventSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|c:\\users\\andre\\desktop\\proyecto_orientaci\u00F3nobjetos\\assets\\scenes\\scrips\\mouselook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|C:\\Users\\andre\\Desktop\\Proyecto_Orientaci\u00F3nObjetos\\assets\\scenes\\scrips\\mouselook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scrips\\mouselook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -23,6 +35,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Dommie.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Character\\Dommie.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scrips\\Character\\Dommie.cs",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Character\\Dommie.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scrips\\Character\\Dommie.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T20:19:03.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Poder2.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Habilidades\\Poder2.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scrips\\Habilidades\\Poder2.cs",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Habilidades\\Poder2.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scrips\\Habilidades\\Poder2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T20:12:34.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Ability Systemn.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Character\\Ability Systemn.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scrips\\Character\\Ability Systemn.cs",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Character\\Ability Systemn.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scrips\\Character\\Ability Systemn.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwCIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T20:09:39.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "EventSystem.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Proyecto_Orientaci\u00F3nObjetos\\Library\\PackageCache\\com.unity.ugui@a9eaa85fb1b8\\Runtime\\UGUI\\EventSystem\\EventSystem.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.ugui@a9eaa85fb1b8\\Runtime\\UGUI\\EventSystem\\EventSystem.cs",
@@ -35,7 +86,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "MouseLook.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\MouseLook.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scrips\\MouseLook.cs",
@@ -43,8 +94,7 @@
               "RelativeToolTip": "Assets\\Scenes\\Scrips\\MouseLook.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T18:21:11.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-14T18:21:11.645Z"
             }
           ]
         }

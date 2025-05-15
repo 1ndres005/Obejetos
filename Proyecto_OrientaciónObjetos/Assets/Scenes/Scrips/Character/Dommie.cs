@@ -46,6 +46,7 @@ public class Target : MonoBehaviour, IDamageable
     {
         Life.AffectValue(-amount);
         ActualizarBarraDeVida();
+        Debug.Log("Jugador dañado por el charco. Vida restante: " + Life.CurrentValue);
 
         if (Life.CurrentValue <= 0)
         {
