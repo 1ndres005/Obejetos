@@ -1,40 +1,70 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
-
+using Unity.VisualScripting;
 public abstract class Habilidad : MonoBehaviour
 {
-    public string nombre;      // Nombre de la habilidad
-    public Image habilidadIcono;       // Icono de la habilidad para UI
-    public float cooldown = 2f; // Tiempo de cooldown de la habilidad
+    public string nombre;
+    public float cooldown = 2f;
+    public bool usaMana = true;
+    public Image habilidadIcono;
+    public int costoMana = 20;
+    public int costoEnergia = 20;
 
-    protected bool enCooldown = false; // Si estï¿½ en cooldown
+    protected bool enCooldown = false;
+
+    protected Jugador jugador;
+
+    protected virtual void Awake()
+    {
+        jugador = GetComponent<Jugador>();
+        if (jugador == null)
+            Debug.LogError("No se encontró componente Jugador en " + gameObject.name);
+    }
 
     public abstract void Ejecutar(GameObject objetivo);
 
     public bool PuedeUsarse()
     {
-        return !enCooldown;
+        if (enCooldown) return false;
+
+        if (usaMana)
+            return jugador.mana.CurrentValue >= costoMana;
+        else
+            return jugador.energia.CurrentValue >= costoEnergia;
     }
 
-protected IEnumerator IniciarCooldown()
-{
-    enCooldown = true;
+    protected bool ConsumirRecurso()
+    {
+        if (usaMana)
+        {
+            if (jugador.mana.CurrentValue >= costoMana)
+            {
+                jugador.GastarMana(costoMana);
+                return true;
+            }
+        }
+        else
+        {
+            if (jugador.energia.CurrentValue >= costoEnergia)
+            {
+                jugador.GastarEnergia(costoEnergia);
+                return true;
+            }
+        }
+        return false;
+    }
 
-    // Ocultar el icono al iniciar el cooldown
-    if (habilidadIcono != null)
-        habilidadIcono.enabled = false;
-
-    // Esperar el tiempo de cooldown
-    yield return new WaitForSeconds(cooldown);
-
-    enCooldown = false;
-
-    // Mostrar el icono nuevamente al terminar el cooldown
-    if (habilidadIcono != null)
-        habilidadIcono.enabled = true;
-}
-
+    protected IEnumerator IniciarCooldown()
+    {
+        enCooldown = true;
+        if (habilidadIcono != null)
+            habilidadIcono.enabled = false;
+        yield return new WaitForSeconds(cooldown);
+        enCooldown = false;
+        if (habilidadIcono != null)
+            habilidadIcono.enabled = true;
+    }
 }
 
 

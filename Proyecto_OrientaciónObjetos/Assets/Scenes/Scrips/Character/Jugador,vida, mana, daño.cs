@@ -5,82 +5,88 @@ using UnityEngine;
 using UnityEditor;
 #endif
 
+[RequireComponent(typeof(AbilitySystem))]
 public class Jugador : MonoBehaviour, IDamageable
 {
-    public float velocidad = 5f;
-    public float salto = 5f;
-
+    [Header("Estadísticas")]
     public Stat vida;
     public Stat mana;
     public Stat energia;
 
-    public List<Habilidad> habilidades;
-
-    public HUDManager hudManager;
-
-    // Parámetros de regeneración automática
+    [Header("Regeneración")]
     public float tiempoRegeneracion = 2f;
     public int cantidadRegeneracion = 20;
 
-    private void Awake()
+    [Header("Componentes")]
+    [SerializeField] private HUDManager hudManager;
+    protected AbilitySystem abilitySystem;
+
+    [System.Obsolete]
+    protected virtual void Awake()
     {
+        // Rango de stats iniciales
         int min = 0;
         int max = 100;
 
-        // Inicialización de vida, maná y energía
-        vida = new Stat(min, max);
-        mana = new Stat(min, max);
-        energia = new Stat(min, max);
+        // Usar clase concreta para evitar error de instanciar clase abstracta
+        vida = new StatBasico(min, max);
+        mana = new StatBasico(min, max);
+        energia = new StatBasico(min, max);
 
-        // Establecer a la mitad
-        vida.SetCurrentValue(max / 2);
+        vida.SetCurrentValue(max);
         mana.SetCurrentValue(max / 2);
         energia.SetCurrentValue(max / 2);
 
-        // Asignar HUDManager si no está asignado
-        if (hudManager == null)
-        {
-            hudManager = FindObjectOfType<HUDManager>();
-        }
+        // Obtener referencias a componentes
+        hudManager = hudManager ?? FindObjectOfType<HUDManager>();
+        abilitySystem = GetComponent<AbilitySystem>();
     }
 
-    private void Start()
+    protected virtual void Start()
     {
-        // Iniciar regeneración periódica desde el inicio del juego
         InvokeRepeating(nameof(RegenerarRecursos), 0f, tiempoRegeneracion);
     }
 
-    public void Damage(int cantidad)
+    protected virtual void Update()
+    {
+        ActualizarHUD();
+    }
+
+    private void ActualizarHUD()
+    {
+        if (hudManager == null) return;
+
+        hudManager.ActualizarVida(vida.CurrentValue, vida.MaxValue);
+        hudManager.ActualizarMana(mana.CurrentValue, mana.MaxValue);
+        hudManager.ActualizarEnergia(energia.CurrentValue, energia.MaxValue);
+    }
+
+    private void RegenerarRecursos()
+    {
+        vida.AffectValue(cantidadRegeneracion);
+        mana.AffectValue(cantidadRegeneracion);
+        energia.AffectValue(cantidadRegeneracion);
+    }
+
+    // Implementación de IDamageable
+    public virtual void Damage(int cantidad)
     {
         vida.AffectValue(-cantidad);
+        Debug.Log($"Daño recibido: {cantidad} | Vida restante: {vida.CurrentValue}");
 
         if (vida.CurrentValue <= 0)
         {
-            Debug.Log("¡El jugador ha muerto!");
-#if UNITY_EDITOR
-            EditorApplication.isPlaying = false;
-#else
-            Application.Quit();
-#endif
+            Morir();
         }
     }
 
-    public void Curar(int cantidad)
+    public virtual void Curar(int cantidad)
     {
         vida.AffectValue(cantidad);
+        Debug.Log($"Cura recibida: {cantidad}");
     }
 
-    public void GastarEnergia(int cantidad)
-    {
-        energia.AffectValue(-cantidad);
-    }
-
-    public void RecuperarEnergia(int cantidad)
-    {
-        energia.AffectValue(cantidad);
-    }
-
-    public void GastarMana(int cantidad)
+    public virtual void GastarMana(int cantidad)
     {
         if (cantidad > mana.CurrentValue)
         {
@@ -89,31 +95,35 @@ public class Jugador : MonoBehaviour, IDamageable
         }
 
         mana.AffectValue(-cantidad);
-        Debug.Log($"Maná restante: {mana.CurrentValue}");
     }
 
-    private void RegenerarRecursos()
+    public virtual void GastarEnergia(int cantidad)
     {
-        if (vida.CurrentValue < vida.MaxValue)
-            vida.AffectValue(cantidadRegeneracion);
-
-        if (mana.CurrentValue < mana.MaxValue)
-            mana.AffectValue(cantidadRegeneracion);
-
-        if (energia.CurrentValue < energia.MaxValue)
-            energia.AffectValue(cantidadRegeneracion);
+        energia.AffectValue(-cantidad);
     }
 
-    private void Update()
+    public virtual void RecuperarEnergia(int cantidad)
     {
-        hudManager?.ActualizarVida(vida.CurrentValue, vida.MaxValue);
-        hudManager?.ActualizarMana(mana.CurrentValue, mana.MaxValue);
-        hudManager?.ActualizarEnergia(energia.CurrentValue, energia.MaxValue);
+        energia.AffectValue(cantidad);
+    }
 
-        if (Input.GetKeyDown(KeyCode.Alpha1) && habilidades.Count > 0) habilidades[0]?.Ejecutar(gameObject);
-        if (Input.GetKeyDown(KeyCode.Alpha2) && habilidades.Count > 1) habilidades[1]?.Ejecutar(gameObject);
-        if (Input.GetKeyDown(KeyCode.Alpha3) && habilidades.Count > 2) habilidades[2]?.Ejecutar(gameObject);
-        if (Input.GetKeyDown(KeyCode.Alpha4) && habilidades.Count > 3) habilidades[3]?.Ejecutar(gameObject);
+    protected virtual void Morir()
+    {
+        Debug.Log("¡El jugador ha muerto!");
+#if UNITY_EDITOR
+        EditorApplication.isPlaying = false;
+#else
+        Application.Quit();
+#endif
+    }
+
+    // Método público para acceder al sistema de habilidades desde fuera
+    public AbilitySystem GetAbilitySystem() => abilitySystem;
+
+    // Métodos opcionales si necesitas ejecutar habilidades desde aquí
+    public void UsarHabilidad(int index)
+    {
+        abilitySystem?.SendMessage("ActivarHabilidad", index);
     }
 }
 

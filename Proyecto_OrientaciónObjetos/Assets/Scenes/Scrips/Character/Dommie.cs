@@ -1,30 +1,21 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
-using System.Collections;
 
-public class Target : MonoBehaviour, IDamageable
+public class NPC : Portador
 {
-    public Stat Life { get; private set; }
-    public TargetRespawner respawner;
     [Header("Regeneración")]
-    public float tasaRegeneracion = 20f;
-    public float intervaloRegeneracion = 4f;
+    [SerializeField] private float tasaRegeneracion = 20f;
+    [SerializeField] private float intervaloRegeneracion = 4f;
 
     [Header("Respawn")]
-    public Transform spawnPoint; // Punto donde el objetivo reaparecerá
+    [SerializeField] private Transform spawnPoint;
+    public TargetRespawner respawner;
 
-    [Header("Barra de vida")]
-    public Image barraDeVida;  // Asigna un Image tipo Filled → Horizontal en el Inspector
-
-    private void Awake()
+    protected override void Awake()
     {
-        Life = new Stat(0, 100);
-        Life.SetCurrentValue(100);
+        base.Awake();
 
         if (spawnPoint == null)
-            spawnPoint = transform; // Fallback al propio objeto si no se asigna
-
-        ActualizarBarraDeVida();
+            spawnPoint = transform;
     }
 
     private void Start()
@@ -34,53 +25,18 @@ public class Target : MonoBehaviour, IDamageable
 
     private void RegenerarVida()
     {
-        if (Life.CurrentValue < Life.MaxValue)
+        if (Vida.CurrentValue < Vida.MaxValue)
         {
-            Life.AffectValue((int)tasaRegeneracion);
-            Debug.Log("Target regeneró vida. Vida actual: " + Life.CurrentValue);
+            Vida.AffectValue((int)tasaRegeneracion);
             ActualizarBarraDeVida();
         }
     }
 
-    public void Damage(int amount)
+    protected override void OnDeath()
     {
-        Life.AffectValue(-amount);
-        ActualizarBarraDeVida();
-
-        if (Life.CurrentValue <= 0)
-        {
-            Debug.Log("Target ha muerto.");
-            respawner.IniciarRespawn();
-            Destroy(gameObject);
-        }
-    }
-
-    public void Curar(int amount)
-    {
-        Life.AffectValue(amount);
-        Debug.Log("Target se curó. Vida actual: " + Life.CurrentValue);
-        ActualizarBarraDeVida();
-    }
-
-    private void ActualizarBarraDeVida()
-    {
-        if (barraDeVida != null)
-        {
-            barraDeVida.fillAmount = (float)Life.CurrentValue / Life.MaxValue;
-        }
-    }
-
-    private IEnumerator Respawn()
-    {
-        yield return new WaitForSeconds(10f);
-
-        Life.SetCurrentValue(Life.MaxValue);
-        ActualizarBarraDeVida();
-
-        transform.position = spawnPoint.position;
-        gameObject.SetActive(true);
-
-        Debug.Log("Target ha reaparecido.");
+        Debug.Log("NPC ha muerto.");
+        respawner?.IniciarRespawn(spawnPoint.position);
+        Destroy(gameObject);
     }
 }
 

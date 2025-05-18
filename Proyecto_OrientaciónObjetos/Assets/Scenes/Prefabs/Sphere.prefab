@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 4172818679540545545}
   - component: {fileID: 7964081239696782954}
   - component: {fileID: 6471380000563773010}
-  - component: {fileID: 8875442022607220368}
   - component: {fileID: 8469404336504916375}
   - component: {fileID: 2446576248854841924}
   m_Layer: 0
@@ -111,20 +110,6 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &8875442022607220368
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8787057111649710087}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67e464a949097b043bd929be83290a0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageZonePrefab: {fileID: 6866383783417001790, guid: 38c82166797a6424dbc7ec37fa275200, type: 3}
-  explosionDelay: 0.1
 --- !u!54 &8469404336504916375
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -166,4 +151,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   duracion: 10
   radio: 5
-  "da\xF1oPorSegundo": 10
+  danoPorSegundo: 10
+  prefabAreaDeDano: {fileID: 6866383783417001790, guid: 38c82166797a6424dbc7ec37fa275200, type: 3}
+  origen: {fileID: 0}
