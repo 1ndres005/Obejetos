@@ -1,1 +1,5 @@
+<<<<<<< Updated upstream
 C:\Users\andre\Desktop\Proyecto_OrientaciónObjetos
+=======
+C:\Users\andre\Desktop\Obejetos\Proyecto_OrientaciónObjetos
+>>>>>>> Stashed changes

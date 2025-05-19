@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
@@ -26,17 +27,28 @@ public class Curacion : Habilidad
         // Curación en área: buscar todos los colliders en un radio
         Collider[] colliders = Physics.OverlapSphere(jugador.transform.position, radioCuracion);
         HashSet<IDamageable> curados = new HashSet<IDamageable>();
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
         foreach (Collider col in colliders)
         {
             if (col.TryGetComponent(out IDamageable damageable))
             {
+<<<<<<< Updated upstream
                 // Curar solo una vez por objeto
                 if (!curados.Contains(damageable))
+=======
+                if(!curados.Contains(damageable))
+>>>>>>> Stashed changes
                 {
                     damageable.Curar(cantidadCuracion);
                     curados.Add(damageable);
                 }
+<<<<<<< Updated upstream
+=======
+                
+>>>>>>> Stashed changes
             }
         }
 

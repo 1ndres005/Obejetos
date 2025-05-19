@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< Updated upstream
   "WorkspaceRootPath": "C:\\Users\\andre\\Desktop\\Proyecto_Orientaci\u00F3nObjetos\\",
   "Documents": [
     {
@@ -21,6 +22,85 @@
     {
       "AbsoluteMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|C:\\Users\\andre\\Desktop\\Proyecto_Orientaci\u00F3nObjetos\\assets\\scenes\\scrips\\mouselook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scrips\\mouselook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+  "WorkspaceRootPath": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\assets\\scenes\\scrips\\interface\\placamana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scrips\\interface\\placamana.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\assets\\scenes\\scrips\\character\\jugador,vida, mana, da\u00F1o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scrips\\character\\jugador,vida, mana, da\u00F1o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\assets\\scenes\\scrips\\habilidades\\curacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scrips\\habilidades\\curacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|c:\\users\\andre\\desktop\\obejetos\\proyecto_orientaci\u00F3nobjetos\\assets\\scenes\\scrips\\character\\clases\\cazador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scrips\\character\\clases\\cazador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\assets\\scenes\\scrips\\habilidades\\base\\habilidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scrips\\habilidades\\base\\habilidades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\assets\\scenes\\scrips\\interface\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scrips\\interface\\ui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\assets\\scenes\\scrips\\habilidades\\dispersion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scrips\\habilidades\\dispersion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\assets\\scenes\\scrips\\habilidades\\aumento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scrips\\habilidades\\aumento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\assets\\scenes\\scrips\\character\\clases\\clerigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scrips\\character\\clases\\clerigo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\assets\\scenes\\scrips\\habilidades\\base\\comportamiento bomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scrips\\habilidades\\base\\comportamiento bomba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\assets\\scenes\\scrips\\interface\\placadeda\u00F1o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scrips\\interface\\placadeda\u00F1o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\assets\\scenes\\scrips\\habilidades\\ability systemn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scrips\\habilidades\\ability systemn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\assets\\scenes\\scrips\\other\\plataformacuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scrips\\other\\plataformacuracion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\assets\\scenes\\scrips\\character\\base\\portador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scrips\\character\\base\\portador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\assets\\scenes\\scrips\\character\\clases\\vampiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scrips\\character\\clases\\vampiro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\assets\\scenes\\scrips\\habilidades\\lanza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scrips\\habilidades\\lanza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\assets\\scenes\\scrips\\habilidades\\base\\area de da\u00F1o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scrips\\habilidades\\base\\area de da\u00F1o.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\assets\\scenes\\scrips\\character\\dommie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scrips\\character\\dommie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\assets\\scenes\\scrips\\other\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09D42231-2A57-42F3-2B98-A2C329B06152}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\scrips\\other\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -30,6 +110,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 0,
           "Children": [
             {
@@ -43,16 +124,137 @@
               "ViewState": "AgIAAAUAAAAAAAAAAAAAwBoAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T20:19:03.142Z",
+=======
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UI.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Interface\\UI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scrips\\Interface\\UI.cs",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Interface\\UI.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scrips\\Interface\\UI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T23:30:49.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Placamana.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Interface\\Placamana.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scrips\\Interface\\Placamana.cs",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Interface\\Placamana.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scrips\\Interface\\Placamana.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T22:51:52.722Z",
+>>>>>>> Stashed changes
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+<<<<<<< Updated upstream
               "Title": "Poder2.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Habilidades\\Poder2.cs",
               "RelativeDocumentMoniker": "Assets\\Scenes\\Scrips\\Habilidades\\Poder2.cs",
               "ToolTip": "C:\\Users\\andre\\Desktop\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Habilidades\\Poder2.cs",
               "RelativeToolTip": "Assets\\Scenes\\Scrips\\Habilidades\\Poder2.cs",
+=======
+              "Title": "Jugador,vida, mana, da\u00F1o.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Character\\Jugador,vida, mana, da\u00F1o.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scrips\\Character\\Jugador,vida, mana, da\u00F1o.cs",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Character\\Jugador,vida, mana, da\u00F1o.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scrips\\Character\\Jugador,vida, mana, da\u00F1o.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAADwv2wAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T22:35:28.376Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PlacaDeDa\u00F1o.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Interface\\PlacaDeDa\u00F1o.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scrips\\Interface\\PlacaDeDa\u00F1o.cs",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Interface\\PlacaDeDa\u00F1o.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scrips\\Interface\\PlacaDeDa\u00F1o.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwCsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T21:34:02.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Clerigo.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Character\\Clases\\Clerigo.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scrips\\Character\\Clases\\Clerigo.cs",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Character\\Clases\\Clerigo.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scrips\\Character\\Clases\\Clerigo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T19:35:31.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Comportamiento Bomba.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Habilidades\\Base\\Comportamiento Bomba.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scrips\\Habilidades\\Base\\Comportamiento Bomba.cs",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Habilidades\\Base\\Comportamiento Bomba.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scrips\\Habilidades\\Base\\Comportamiento Bomba.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T19:55:07.056Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Aumento.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Habilidades\\Aumento.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scrips\\Habilidades\\Aumento.cs",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Habilidades\\Aumento.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scrips\\Habilidades\\Aumento.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T19:18:30.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Habilidades.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Habilidades\\Base\\Habilidades.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scrips\\Habilidades\\Base\\Habilidades.cs",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Habilidades\\Base\\Habilidades.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scrips\\Habilidades\\Base\\Habilidades.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T19:08:31.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Curacion.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Habilidades\\Curacion.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scrips\\Habilidades\\Curacion.cs",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Habilidades\\Curacion.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scrips\\Habilidades\\Curacion.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T19:36:40.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Cazador.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Character\\Clases\\Cazador.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scrips\\Character\\Clases\\Cazador.cs",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Character\\Clases\\Cazador.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scrips\\Character\\Clases\\Cazador.cs",
+>>>>>>> Stashed changes
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T20:12:34.062Z",
@@ -60,6 +262,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 2,
               "Title": "Ability Systemn.cs",
               "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Character\\Ability Systemn.cs",
@@ -95,6 +298,113 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T18:21:11.645Z"
+=======
+              "DocumentIndex": 11,
+              "Title": "Ability Systemn.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Habilidades\\Ability Systemn.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scrips\\Habilidades\\Ability Systemn.cs",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Habilidades\\Ability Systemn.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scrips\\Habilidades\\Ability Systemn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T19:09:10.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Dispersion.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Habilidades\\Dispersion.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scrips\\Habilidades\\Dispersion.cs",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Habilidades\\Dispersion.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scrips\\Habilidades\\Dispersion.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwA4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T19:44:35.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Area de Da\u00F1o.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Habilidades\\Base\\Area de Da\u00F1o.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scrips\\Habilidades\\Base\\Area de Da\u00F1o.cs",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Habilidades\\Base\\Area de Da\u00F1o.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scrips\\Habilidades\\Base\\Area de Da\u00F1o.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T19:56:34.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PlataformaCuracion.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Other\\PlataformaCuracion.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scrips\\Other\\PlataformaCuracion.cs",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Other\\PlataformaCuracion.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scrips\\Other\\PlataformaCuracion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T21:21:51.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Lanza.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Habilidades\\Lanza.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scrips\\Habilidades\\Lanza.cs",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Habilidades\\Lanza.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scrips\\Habilidades\\Lanza.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T21:14:13.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Portador.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Character\\Base\\Portador.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scrips\\Character\\Base\\Portador.cs",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Character\\Base\\Portador.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scrips\\Character\\Base\\Portador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T21:28:28.263Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Vampiro.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Character\\Clases\\Vampiro.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scrips\\Character\\Clases\\Vampiro.cs",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Character\\Clases\\Vampiro.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scrips\\Character\\Clases\\Vampiro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T19:27:59.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Other\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scrips\\Other\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Other\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scrips\\Other\\PlayerMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T19:19:31.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Dommie.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Character\\Dommie.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\Scrips\\Character\\Dommie.cs",
+              "ToolTip": "C:\\Users\\andre\\Desktop\\Obejetos\\Proyecto_Orientaci\u00F3nObjetos\\Assets\\Scenes\\Scrips\\Character\\Dommie.cs",
+              "RelativeToolTip": "Assets\\Scenes\\Scrips\\Character\\Dommie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T18:59:39.433Z"
+>>>>>>> Stashed changes
             }
           ]
         }

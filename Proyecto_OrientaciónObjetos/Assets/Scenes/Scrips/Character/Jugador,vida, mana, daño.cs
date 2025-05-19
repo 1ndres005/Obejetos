@@ -106,6 +106,7 @@ public class Jugador : MonoBehaviour, IDamageable
 
     private void Update()
     {
+<<<<<<< Updated upstream
         hudManager?.ActualizarVida(vida.CurrentValue, vida.MaxValue);
         hudManager?.ActualizarMana(mana.CurrentValue, mana.MaxValue);
         hudManager?.ActualizarEnergia(energia.CurrentValue, energia.MaxValue);
@@ -114,6 +115,31 @@ public class Jugador : MonoBehaviour, IDamageable
         if (Input.GetKeyDown(KeyCode.Alpha2) && habilidades.Count > 1) habilidades[1]?.Ejecutar(gameObject);
         if (Input.GetKeyDown(KeyCode.Alpha3) && habilidades.Count > 2) habilidades[2]?.Ejecutar(gameObject);
         if (Input.GetKeyDown(KeyCode.Alpha4) && habilidades.Count > 3) habilidades[3]?.Ejecutar(gameObject);
+=======
+        energia.AffectValue(cantidad);
+    }
+    public virtual void Recuperarmana(int cantidad)
+    {
+        mana.AffectValue(cantidad);
+    }
+    protected virtual void Morir()
+    {
+        Debug.Log("¡El jugador ha muerto!");
+#if UNITY_EDITOR
+        EditorApplication.isPlaying = false;
+#else
+        Application.Quit();
+#endif
+    }
+
+    // Método público para acceder al sistema de habilidades desde fuera
+    public AbilitySystem GetAbilitySystem() => abilitySystem;
+
+    // Métodos opcionales si necesitas ejecutar habilidades desde aquí
+    public void UsarHabilidad(int index)
+    {
+        abilitySystem?.SendMessage("ActivarHabilidad", index);
+>>>>>>> Stashed changes
     }
 }
 

@@ -79,10 +79,24 @@
     <Compile Include="Assets\Scenes\Scrips\MouseLook.cs" />
     <Compile Include="Assets\Scenes\Scrips\Habilidades\Base\Habilidades.cs" />
     <Compile Include="Assets\Scenes\Scrips\Character\Jugador,vida, mana, daño.cs" />
+<<<<<<< Updated upstream
     <Compile Include="Assets\Scenes\Scrips\Habilidades\Base\Proyectil.cs" />
     <Compile Include="Assets\Scenes\Scrips\Bases\Stats.cs" />
     <Compile Include="Assets\Scenes\Scrips\Enums\Flowtype.cs" />
     <Compile Include="Assets\Scenes\Scrips\Habilidades\Base\NewMonoBehaviourScript.cs" />
+=======
+    <Compile Include="Assets\Scenes\Scrips\Bases\Flowtype.cs" />
+    <Compile Include="Assets\Scenes\Scrips\Character\Clases\Vampiro.cs" />
+    <Compile Include="Assets\Scenes\Scrips\Other\MagicBomb.cs" />
+    <Compile Include="Assets\Scenes\Scrips\Character\TargetRespawnn.cs" />
+    <Compile Include="Assets\Scenes\Scrips\Bases\Energia.cs" />
+    <Compile Include="Assets\Scenes\Scrips\Habilidades\Ability Systemn.cs" />
+    <Compile Include="Assets\Scenes\Scrips\Bases\Base\Stats1.cs" />
+    <Compile Include="Assets\Scenes\Scrips\Habilidades\Dispersion.cs" />
+    <Compile Include="Assets\Scenes\Scrips\Habilidades\Base\Comportamiento Bomba.cs" />
+    <Compile Include="Assets\Scenes\Scrips\Character\Clases\Cazador.cs" />
+    <Compile Include="Assets\Scenes\Scrips\Interface\Placamana.cs" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Decoracion\Fantasy Forest Environment Free Sample\StandardNoCulling.shader" />

@@ -399,6 +399,13 @@
 -analyzer:"C:/Users/andre/Desktop/6000.0.44f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Users/andre/Desktop/6000.0.44f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"C:/Users/andre/Desktop/6000.0.44f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+<<<<<<< Updated upstream
+=======
+"Assets/Scenes/Scrips/Bases/Base/Stats.cs"
+"Assets/Scenes/Scrips/Bases/Base/Stats1.cs"
+"Assets/Scenes/Scrips/Bases/Energia.cs"
+"Assets/Scenes/Scrips/Bases/Flowtype.cs"
+>>>>>>> Stashed changes
 "Assets/Scenes/Scrips/Bases/Mana.cs"
 "Assets/Scenes/Scrips/Bases/Stats.cs"
 "Assets/Scenes/Scrips/Character/Ability Systemn.cs"
@@ -415,7 +422,11 @@
 "Assets/Scenes/Scrips/Interface/BarraDeVidaUI.cs"
 "Assets/Scenes/Scrips/Interface/Idamageable.cs"
 "Assets/Scenes/Scrips/Interface/PlacaDeDaño.cs"
+<<<<<<< Updated upstream
 "Assets/Scenes/Scrips/Interface/TargetRespawnn.cs"
+=======
+"Assets/Scenes/Scrips/Interface/Placamana.cs"
+>>>>>>> Stashed changes
 "Assets/Scenes/Scrips/Interface/UI.cs"
 "Assets/Scenes/Scrips/MagicBomb.cs"
 "Assets/Scenes/Scrips/MouseLook.cs"
