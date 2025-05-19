@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class TargetDamageZone : MonoBehaviour
+public class placamana : MonoBehaviour
 {
     public int dañoPorSegundo = 10;
     private bool jugadorEnPlaca = false;
@@ -25,7 +25,8 @@ public class TargetDamageZone : MonoBehaviour
 
             if (tiempoAcumulado >= 1f) // Daño cada 1 segundo
             {
-                jugador.Damage(dañoPorSegundo);
+                jugador.RecuperarEnergia(dañoPorSegundo);
+                jugador.Recuperarmana(dañoPorSegundo);
                 Debug.Log("Recargo recurso " + dañoPorSegundo);
                 tiempoAcumulado = 0f; // Reiniciar contador
             }
@@ -43,6 +44,3 @@ public class TargetDamageZone : MonoBehaviour
         }
     }
 }
-
-
-

@@ -106,6 +106,10 @@ public class Jugador : MonoBehaviour, IDamageable
     {
         energia.AffectValue(cantidad);
     }
+    public virtual void Recuperarmana(int cantidad)
+    {
+        energia.AffectValue(cantidad);
+    }
 
     protected virtual void Morir()
     {

@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Curacion : Habilidad
@@ -22,11 +23,16 @@ public class Curacion : Habilidad
         if (jugador == null) return;
 
         Collider[] colliders = Physics.OverlapSphere(jugador.transform.position, radioCuracion);
+        HashSet<IDamageable> curados = new HashSet<IDamageable>();
         foreach (Collider col in colliders)
         {
-            if (col.TryGetComponent<IDamageable>(out var damageable))
+            if (col.TryGetComponent(out IDamageable damageable))
             {
-                damageable.Curar(cantidadCuracion);
+                if (!curados.Contains(damageable))
+                {
+                    damageable.Curar(cantidadCuracion);
+                    curados.Add(damageable);
+                }
             }
         }
 
